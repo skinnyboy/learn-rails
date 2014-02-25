@@ -7,6 +7,7 @@
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
     <%# Modernizr is required for Zurb Foundation %>
     <%= javascript_include_tag "vendor/modernizr" %>
+    <%# Zurb Foundation is included in the asset pipeline%>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
   </head>
@@ -18,5 +19,6 @@
        <%= render 'layouts/messages' %>
        <%= yield %>
     </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"</script>
   </body>
 </html>

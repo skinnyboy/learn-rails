@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.1.0'
-gem 'rails', '4.0.2'
+gem 'rails', '4.0.3'
 
 #Rails defaults
 gem 'sqlite3'
@@ -16,8 +16,8 @@ gem 'jbuilder', '~> 1.2'
 #Learn-rails
 gem 'activerecord-tableless' 
 gem 'figaro'
-gem 'foundation-rails'
-gem 'gibbon'
+gem 'foundation-rails', '5.0.3.1'
+gem 'gibbon' 
 gem 'google_drive' 
 gem 'high_voltage' 
 gem 'simple_form' 
